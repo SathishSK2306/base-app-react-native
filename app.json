@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "shopify-native",
+    "name": "Click-shop",
     "slug": "shopify-native",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -12,6 +12,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.sathish2306.shopifynative",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6e44a8b2-8e21-420f-9954-44f7623e5366"
+      }
     }
   }
 }
